@@ -1,0 +1,6 @@
+/node_modules
+/.dpd
+/data
+.DS_Store
+npm-debug.log
+errors.log
