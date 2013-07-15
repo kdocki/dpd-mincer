@@ -2,15 +2,13 @@
   "name": "dpd-mincer",
   "version": "0.0.3",
   "dependencies": {
-    "mincer": "*"
+    "mincer": "*",
+    "glob": "*"
   },
   "devDependencies": {
   	"mocha": "*",
     "deployd": "*",
-    "chai": "*",
-    "coffee-script": "*",
-    "handlebars": "*",
-    "glob": "*"
+    "chai": "*"
   },
  "repository": {
     "type": "git",
