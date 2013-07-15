@@ -12,7 +12,8 @@
 ```js
 	/**
 	 * Inside of public/assets/javascripts/application.js
-	 * Be sure to include this file via <script src="/assets/javascripts/application.js"></script>
+	 * Be sure to include this file via 
+	 * <script src="/assets/javascripts/application.js"></script>
 	 *= require_tree .
 	 *= require_self
 	 */
@@ -23,7 +24,8 @@
 ```css
 	/**
 	 * Inside of public/assets/stylesheets/application.css
-	 * Be sure to include this file via <link rel="stylesheet" type="text/css" href="/assets/stylesheets/application.css">
+	 * Be sure to include this file via 
+	 * <link rel="stylesheet" type="text/css" href="/assets/stylesheets/application.css">
 	 *
 	 *= require_tree .
 	 *= require_self
@@ -36,12 +38,14 @@ Your fonts and images can go in public/assets/font and public/assets/img (defaul
 
 ## JST (client side javascript templates)
 
-Just include <script src="/assets/javascripts.jst"></script> and then say we had a handlebars template
+Just include `<script src="/assets/javascripts.jst"></script>` and then say we had a handlebars template
 
+```html
 <!-- /public/assets/javascripts/apps/templates/foobar.hbs.html -->
 <ul>
 	<li>{{test}}</li>
 </ul>
+```
 
 And somewhere in your scripts...
 
